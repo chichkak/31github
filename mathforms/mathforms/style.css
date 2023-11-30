@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("c:\Users\User\Pictures\backround, pinterest 2.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 125px;
+    height: 125px;
+    border-radius: 25px;
+    border: 2px solid darkblue;
+    box-shadow: 0 0 15px black;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    filter: brightness(200%);
+    transform: scale(1.5) rotate(360deg);
+    border-radius: 50%
+}
